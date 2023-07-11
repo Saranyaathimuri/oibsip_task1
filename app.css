@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+    
+    
+    font-family: 'Times New Roman', Times, serif; 
+    outline: none;
+}
+
+
+.box{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blanchedalmond;
+    
+}
+.calcikeys{
+    
+    text-align: center;
+    
+    background-color:white;
+   padding: 15px;
+   
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ecf0f3, -5px -5px 12px #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+
+
+button{
+    height: 50px;
+    width:50px;
+    background-color: white;
+    box-shadow: inset 5px 5px 12px rgba(0,0,0,.20), -5px -5px 12px #ffffff;
+    border:none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 22px;
+}
+button:hover{
+    background-color: orange;
+}
+.keys{
+    color:blueviolet;
+}
+.operators{
+    color: brown;
+}
+.numbers{
+    color: orangered;
+}
+.equal{
+    color: green;
+}
+.display{
+    grid-column: span 4;
+    height: 70px;
+    width:260px;
+    border:none;
+    box-shadow: inset 5px 5px 12px rgba(0,0,0,.20), -5px -5px 12px #ffffff;
+    background-color: white;
+    border-radius: 30px;
+    color: blue;
+    text-align: end;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size:40px;
+}
+

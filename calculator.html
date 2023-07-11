@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+ 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Calculator app</title>
+  <link rel="stylesheet" href="app.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+ 
+  <div class="box">
+    <div class="calcikeys">
+
+<input class="display" type="text" id="_output" disabled /> 
+
+   
+<button onclick="clearAll()" class="keys" > Ac</button>
+    <button onclick="display('(')" class="keys"> (</button>
+    <button onclick="display(')')" class="keys">)</button>
+    <button onclick="display('/')" class="operators"> /</button>
+    
+
+  
+  
+    <button onclick="display('7')" class="numbers" > 7</button>
+    <button onclick="display('8')" class="numbers"> 8</button>
+    <button onclick="display('9')" class="numbers" > 9</button>
+    
+    <button onclick="display('*')" class="operators" > *</button>
+  
+    <button onclick="display('4')" class="numbers" > 4</button>
+    <button onclick="display('5')" class="numbers"> 5</button>
+    <button onclick="display('6')" class="numbers" > 6</button>
+    <button onclick="display('-')" class="operators" > -</button>
+  
+    <button onclick="display('1')" class="numbers"> 1</button>
+    <button onclick="display('2')" class="numbers"> 2</button>
+    <button onclick="display('3')" class="numbers"> 3</button>
+    <button onclick="display('+')" class="operators" > +</button>
+  
+  
+    
+    <button onclick="display('.')" class="operators"> .</button>
+    <button onclick="display('0')" class="numbers"> 0</button>
+    
+    <button onclick="backspace()" class="keys" > <i class="fa-solid fa-delete-left"></i></button>
+    <button onclick="equal()" class="equal"> =</button>
+  
+    </div>
+  </div>
+<script type="text/javascript" src="action.js"></script>
+ 
+</body>
+ 
+</html>
